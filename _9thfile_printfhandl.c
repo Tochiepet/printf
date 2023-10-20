@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- * handle_print - Prints an argument based on its type
- * @fmt: Formatted string in which to print the arguments.
- * @list: List of arguments to be printed.
+ * handle_print - Print an argument based on its type
+ * @fmt: Formatted string to print the arguments.
+ * @list: List of arguments to print.
  * @ind: ind.
- * @buffer: Buffer array to handle print.
- * @flags: Calculates active flags
+ * @buffer: Buffer array to handle the print.
+ * @flags: Calculates all active flags
  * @width: get width.
  * @precision: Precision specification
  * @size: Size specifier

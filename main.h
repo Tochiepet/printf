@@ -19,7 +19,7 @@
 #define S_SHORT 1
 
 /**
- * struct fmt - Struct op
+ * struct fmt - Structure op
  *
  * @fmt: The format.
  * @fn: The function associated.
@@ -32,7 +32,7 @@ struct fmt
 
 
 /**
- * typedef struct fmt fmt_t - Struct op
+ * typedef struct fmt fmt_t - Structure op
  *
  * @fmt: The format.
  * @fm_t: The function associated.
@@ -80,7 +80,7 @@ int print_pointer(va_list types, char buffer[],
 
 /* Funciotns to handle other specifiers */
 int get_flags(const char *format, int *i);
-int get_width(const char *format, int *i, va_list list);
+int get_width(coinst char *format, int *i, va_list list);
 int get_precision(const char *format, int *i, va_list list);
 int get_size(const char *format, int *i);
 
