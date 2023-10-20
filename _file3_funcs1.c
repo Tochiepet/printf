@@ -2,9 +2,9 @@
 
 /************************* PRINT UNSIGNED NUMBER *************************/
 /**
- * print_unsigned - Prints an unsigned number
- * @types: List a of arguments
- * @buffer: Buffer array to handle print
+ * print_unsigned - Print an unsigned number
+ * @types: List of arguments
+ * @buffer: Buffer array for printing
  * @flags:  Calculates active flags
  * @width: get width
  * @precision: Precision specification
