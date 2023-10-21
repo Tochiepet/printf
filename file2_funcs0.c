@@ -4,14 +4,14 @@
 /************************* PRINT CHAR *************************/
 
 /**
- * print_char - Prints a character
- * @types: List of arguments
+ * print_char - it will Print a character
+ * @types: the List of arguments
  * @buffer: Buffer array to handle printing
  * @flags:  Calculates active flags
- * @width: Width
+ * @width: the Width
  * @precision: Precision specification
  * @size: Size specifier
- * Return: Number of chars printed
+ * Return: the Number of chars printed
  */
 int print_char(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
