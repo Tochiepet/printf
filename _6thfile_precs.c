@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * get_precision - Calculate the precision for printing
- * @format: Formatted string containing the arguments
- * @i: List of arguments to be printed.
- * @list: list of arguments.
+ * get_precision - this will Calculate precision for printing
+ * @format: it is the Formatted string that contains arguments
+ * @i: it's the List of arguments to be printed.
+ * @list: the list of arguments.
  *
  * Return: Precision.
  */
